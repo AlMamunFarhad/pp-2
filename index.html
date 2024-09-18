@@ -1,0 +1,480 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Farhad Portfolio</title>
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Bootstrap cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.2/font/bootstrap-icons.min.css" integrity="sha512-D1liES3uvDpPrgk7vXR/hR/sukGn7EtDWEyvpdLsyalQYq6v6YUsTUJmku7B4rcuQ21rf0UTksw2i/2Pdjbd3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  </head>
+  <body>
+
+<div class="top-nav">
+<nav class="navbar navbar-expand-lg py-3">
+  <div class="container">
+    <a class="navbar-brand" href="">
+      <img src="images/f.png" class="img-fluid rounded-pill" alt="" id="navLogo">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="bi bi-list"></i>
+    </button>
+    <a href="mailto:farhadmikky@gmail.com" class="message-link">
+    <div class="message">
+      <i class="bi bi-chat-square-fill" ></i>
+    </div>
+  </a>
+  <div class="social-link">
+<div class="nav-icon">
+    <ul class="d-flex justify-content-center align-items-center list-unstyled mt-3 flex-wrap  flex-column">
+      <li><a href="https://github.com/AlMamunFarhad" target="_blank" class="icon-hover"><i class="bi bi-github"></i></a></li>
+      <li><a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" target="_blank" class="icon-hover"><i class="bi bi-linkedin"></i></a></li>
+      <li><a href="https://www.facebook.com/profile.php?id=100009626361921" target="_blank" class="icon-hover"><i class="bi bi-facebook"></i></a></li>
+      <li><a href="https://www.instagram.com/almamunfarhad/" target="_blank" class="icon-hover"><i class="bi bi-instagram"></i></a></li>
+      <li><a href="https://twitter.com/FarhadAlMamun11" target="_blank" class="icon-hover"><i class="bi bi-twitter"></i></a></li>
+    </ul>
+  </div>
+  <div class="person-icon">
+    <i class="bi bi-person"></i>
+  </div>
+  </div>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <div class="fixed-md-bottom ms-auto">
+      <ul class="navbar-nav nav-links text-break">
+        <li class="nav-item ">
+          <a class="nav-link nav-menu menu-active" aria-current="page" href="#home">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-menu" href="#about">ABOUT US</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-menu" href="#skills">SKILLS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-menu" href="#serveice">SERVICES</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-menu" href="#portfolio">PORTFOLIO</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-menu" href="#contact">CONTACT</a>
+        </li>
+        <li class="nav-item position-relative">
+          <div class="dropdown" id="navContact">
+            <button class="rounded-pill" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-hidden="true" data-bs-auto-close="outside" data-dismiss="modal">
+              <i class="bi bi-gear-wide nav-icon"></i>
+            </button>
+          <div class="dropdown-menu fade dropdown-menu-end border-0">
+              <div class="customize-theme py-2">
+                <div class="color">
+                  <h4>Theme Colors</h4>
+                  <div class="choose-color ">
+                      <p class="color-1 active"></p>
+                      <p class="color-2"></p>
+                      <p class="color-3"></p>
+                      <p class="color-4"></p>
+                      <p class="color-5"></p>
+                      <a class="btn rounded-pill fs-6 reset-btn d-flex" id="resetBtn">Reset</a>
+                  </div>
+
+                </div>
+              </div>
+             </div>
+            </div>
+          </li>
+          <li class="nav-item pt-2 dark-mode" >
+            <!-- <i class="bi bi-moon mt-4 pt-1 ms-2" id="icon" onclick="toggleMode()"></i> -->
+            <i class=" bi bi-brightness-high text-dark ms-2" id="icon" onclick="toggleMode()"></i>
+          </li>
+        </ul>
+      </div>
+      </div>
+    </div>
+</nav>
+</div>
+<!--============== Hero Section =================-->
+<section id="home" class="home-section">
+<div class="hro-section position-relative" id="home_section">
+  <div class="container-fluid">
+    <div class="row vh-100">
+      <div class="col-md-12 m-auto">
+        <div class="hero-content d-flex justify-content-center align-itmes-center flex-column">
+                <div class="d-flex justify-content-center">
+                  <h4 style="width: 40%; display: inline;" class="text-center">HELLO! I'M <span class="animate">Farhad</span></h4>
+                </div>
+               <div class="d-flex justify-content-center">
+                <h1 class="text-center animate-charcter" style="width: 40%; display: inline;">Full Stack Developer</h1>
+               </div>
+            <div class="d-flex justify-content-center">
+              <p class="text-center" style="width: 40%;">I have been working as a full-time website designer and developer for 4+ years and have experience working on all kinds of projects.</p>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+<!-- ============== About ================== -->
+<section id="about">
+<div class="about-section d-flex align-items-center">
+  <div class="container" >
+    <div class="row d-flex justify-content-center align-items-center row-all">
+      <div class="col-lg-6 skills">
+        <div class="about-img d-flex justify-content-center align-items-center">
+          <img src="images/farhad.png" class="img-fluid w-75" alt="">
+        </div>
+      </div>
+      <div class="col-lg-6">
+          <div class="about-content">
+            <div class="d-flex">
+              <h1 class="mb-4 pt-2 pb-2 text-border">ABOUT ME</h1>
+            </div>
+            <P class="pb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur neque vitae consequatur aliquid fuga quod provident quos laudantium, impedit commodi, praesentium tempore amet distinctio vero quaerat. Ratione, est quia! Beatae.</P>
+            <div class="pt-2 d-flex flex-wrap">
+              <a href="images/cv.pdf" download="cv.pdf" class="me-2 custom-btn">DOWNLOAD CV  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
+                <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
+                <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
+              </svg></a>
+              <a href="#" class="custom-btn hire-btn">HIRE ME</a>
+            </div>
+            
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+<!--======= Skills Section ========-->
+<section class="skills-section" id="skills">
+  <div class="container container-all">
+    <div class="row row-all">
+      <div class="d-flex justify-content-center align-items-center">
+        <h1 class="mb-4 text-center pb-2 text-border">SKILLS</h1>
+      </div>
+      <div class="col-lg-6">
+        <div class="skills-content">
+          <h5>HTML</h5>
+          <div id="skills-section">
+            <div class="progress">
+              <div class="porgress-bar" data-progress="98">
+                <span>98%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="skills-content">
+          <h5>CSS</h5>
+          <div id="skills-section">
+            <div class="progress">
+              <div class="porgress-bar" data-progress="90">
+                <span>90%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="skills-content">
+          <h5>BOOTSTRAP</h5>
+          <div id="skills-section">
+            <div class="progress">
+              <div class="porgress-bar" data-progress="90">
+                <span>90%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="skills-content">
+          <h5>WORDPRESS</h5>
+          <div id="skills-section">
+            <div class="progress">
+              <div class="porgress-bar" data-progress="80">
+                <span>80%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="skills-content">
+          <h5>JAVASCRIPT</h5>
+          <div id="skills-section">
+            <div class="progress">
+              <div class="porgress-bar" data-progress="60">
+                <span>60%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="skills-content">
+          <h5>JQUERY</h5>
+          <div id="skills-section">
+            <div class="progress">
+              <div class="porgress-bar" data-progress="60">
+                <span>60%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="skills-content">
+          <h5>PHP</h5>
+          <div id="skills-section">
+            <div class="progress">
+              <div class="porgress-bar" data-progress="85">
+                <span>85%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="skills-content">
+          <h5>OOP</h5>
+          <div id="skills-section">
+            <div class="progress">
+              <div class="porgress-bar" data-progress="85">
+                <span>85%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="skills-content">
+          <h5>MYSQLI</h5>
+          <div id="skills-section">
+            <div class="progress">
+              <div class="porgress-bar" data-progress="70">
+                <span>70%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="skills-content">
+          <h5>LARAVEL</h5>
+          <div id="skills-section">
+            <div class="progress">
+              <div class="porgress-bar" data-progress="50">
+                <span>50%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="skills-content">
+          <h5>GIT</h5>
+          <div id="skills-section">
+            <div class="progress">
+              <div class="porgress-bar" data-progress="70">
+                <span>70%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="skills-content">
+          <h5>GITHUB</h5>
+          <div id="skills-section">
+            <div class="progress">
+              <div class="porgress-bar" data-progress="75">
+                <span>75%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--===== Service Section ======-->
+<section id="serveice">
+<div class="service-section">
+  <div class="container">
+    <div class="d-flex justify-content-center align-items-center">
+      <h1 class="text-center mb-4 pb-2 text-border">SERVICES</h1>
+    </div>
+    <div class="row g-4 justify-content-center service-row">
+      <div class="col-lg-4 col-md-6">
+        <div class="card text-center py-4">
+          <div class="card-img">
+            <img src="images/ui-ux-design.png" class="img-fluid img-responsive img-1" alt="">
+          </div>
+          <div class="card-body">
+            <h3>Web Design</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem nisi quisquam possimus iste, minus dicta.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="card text-center py-4">
+          <div class="card-img">
+            <img src="images/ux2.png" class="img-fluid img-responsive" alt="">
+          </div>
+          <div class="card-body">
+            <h3>Web Development</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem nisi quisquam possimus iste, minus dicta.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="card text-center py-4">
+          <div class="card-img">
+            <img src="images/3.png" class="img-fluid img-responsive" alt="">
+          </div>
+          <div class="card-body">
+            <h3>UI & UX Design</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem nisi quisquam possimus iste, minus dicta.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+<!--===== Portfolio Section ======-->
+<section id="portfolio">
+  <div class="portfolio-section">
+    <div class="container">
+      <div class="d-flex justify-content-center align-items-center">
+        <h1 class="text-center mb-4 pb-2 text-border">PORTFOLIO</h1>
+      </div>
+        <div class="row g-4 justify-content-center service-row">
+            <div class="col-lg-4 col-md-6">
+              <!-- <a href="https://almamunfarhad.github.io/social-media-project/"> -->
+              <div class="portfolio-content">
+                  <div class="portfolio-img">
+                      <img src="images2/img9.png" class="img-fluid" alt="img">
+                      <a href="https://almamunfarhad.github.io/html-css-js-project/" class="portfolio-btn">View</a>
+                  </div>
+              </div>
+            <!-- </a> -->
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <!-- <a href="https://almamunfarhad.github.io/html-css-js-project/"> -->
+            <div class="portfolio-content">
+                <div class="portfolio-img">
+                    <img src="images2/img17.png" class="img-fluid" alt="img">
+                    <a href="https://almamunfarhad.github.io/social-media-project/" class="portfolio-btn">View</a>
+                </div>
+            </div>
+          <!-- </a> -->
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <!-- <a href="https://almamunfarhad.github.io/html-css-project/"> -->
+            <div class="portfolio-content">
+                <div class="portfolio-img">
+                    <img src="images2/img16.png" class="img-fluid" alt="img">
+                    <a href="https://almamunfarhad.github.io/html-css-project/" class="portfolio-btn">View</a>
+                </div>
+            </div>
+          <!-- </a> -->
+        </div>
+        <div class=" d-flex justify-content-center align-items-center">
+          <a href="./portfolio.html" class="text-center custom-btn">READ MORE</a>
+        </div>
+        </div>
+    </div>
+</div>
+</section>
+<!--====== Contact Section Start======-->
+<section id="contact">
+<div class="contact-section">
+  <div class="container">
+    <div class="row align-items-center g-4 row-all">
+      <div class="col-lg-6">
+        <div class="d-flex justify-content-center align-items-center">
+          <h1 class="mb-4 pb-2 text-center text-border">CONTACT INFO</h1>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-6 mb-4">
+            <a href="https://maps.app.goo.gl/doJkUf1aWFdctmhYA">
+            <div class="contact-info card d-flex justify-content-center align-items-center flex-column text-center">
+              <h3><i class="bi bi-geo-alt-fill"></i></h3>
+              <h5>LOCATION</h5>
+              <h6>Bangladesh, Dhaka-1216</h6>
+          </div>
+        </a>
+      </div>
+    <div class="col-md-6 mb-4">
+      <a href="mailto:farhadmikky@gmail.com">
+      <div class="contact-info card d-flex justify-content-center align-items-center flex-column text-center">
+        <h3><i class="bi bi-envelope-heart-fill"></i></h3>
+        <h5>EMAIL</h5>
+        <h6 class="text-break">farhadmikky@gmail.com</h6>
+      </div>
+    </a>
+    </div>
+     </div>
+        <div class="row">
+          <div class="col-md-6 mb-4">
+            <a href="tel:+88 01318764476">
+            <div class="contact-info card d-flex justify-content-center align-items-center flex-column text-center">
+              <h3><i class="bi bi-telephone-fill"></i></h3>
+              <h5>PHONE</h5>
+              <h6>+88 01318764476</h6>
+          </div>
+        </a>
+        </div>
+    <div class="col-md-6 mb-4">
+      <a href="tel:+88 01318764476">
+      <div class="contact-info card d-flex justify-content-center align-items-center flex-column text-center">
+        <h3><i class="bi bi-whatsapp"></i></h3>
+        <h5>WHATSAPP</h5>
+        <h6>+88 01318764476</h6>
+      </div>
+    </a>
+    </div>
+  </div>
+</div>
+<!--===== Contact Form ======-->
+<div class="col-lg-6">
+  <div class="contact-form">
+    <h3 class="pb-4 text-center">Send Me a Message</h3>
+      <div class="form">
+        <form action="">
+          <div class="form-group form-floating fixed">
+            <input type="email" class="form-control mb-4 input-style" id="floatingInput" placeholder="Email" required>
+            <label for="floatingInput" class="e-float-text">Email*</label>
+          </div>
+          <div class="form-group form-floating fixed">
+            <input type="text" class="form-control mb-4 input-style" id="floatingInput" placeholder="Subject" style="height: 30px !important;">
+            <label for="floatingInput" class="e-float-text" required>Subject*</label>
+          </div>
+          <div class="form-group form-floating fixed">
+            <textarea name="message" id="floatingInput" cols="30" rows="10"  class="input-style mb-4 form-control mb-3" placeholder="Message" style="height: 7rem;"></textarea>
+            <label for="floatingInput" class="e-float-text massage">Message</label>
+          </div>
+          <div class="form-btn">
+            <a href="#" class="rounded-pill custom-btn form-control text-center">SEND</a>
+          </div>
+         </form>
+        </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+<!--====== Contact Section End======-->
+<div class="footer">
+  <div class="container container-all">
+    <div class="row">
+      <div class="col-md-12">
+          <ul class="d-flex justify-content-center align-items-center list-unstyled mt-3 flex-wrap footer-icon">
+            <li><a href="https://github.com/AlMamunFarhad" target="_blank" class="icon-hover"><i class="bi bi-github"></i></a></li>
+            <li><a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" target="_blank" class="icon-hover"><i class="bi bi-linkedin"></i></a></li>
+            <li><a href="https://www.facebook.com/profile.php?id=100009626361921" target="_blank" class="icon-hover"><i class="bi bi-facebook"></i></a></li>
+            <li><a href="https://www.instagram.com/almamunfarhad/" target="_blank" class="icon-hover"><i class="bi bi-instagram"></i></a></li>
+            <li><a href="https://twitter.com/FarhadAlMamun11" target="_blank" class="icon-hover"><i class="bi bi-twitter"></i></a></li>
+          </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/scripts.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    </script>
+  </body>
+</html> 
